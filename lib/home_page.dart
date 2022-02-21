@@ -4,6 +4,13 @@ class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
   final int days = 30;
   final String name = "Chirag";
+  /*
+    double pi = 3.14;
+    bool isMale = true;
+    num temp = 30.5; // num can have both int and double values
+    var day = "Monday"; // var can have any type of value
+    const g = 9.8; // const value can not be overwritten
+    */
 
   @override
   Widget build(BuildContext context) {
