@@ -16,6 +16,8 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // Scaffold use karke humlog page ko different parts me divide kar sakte hai
+    // Like appBar, body, drawer
     return Scaffold(
       appBar: AppBar(
         title: Text("Catalog App"),
